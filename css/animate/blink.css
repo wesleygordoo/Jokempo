@@ -1,0 +1,39 @@
+.blink {
+  animation: color-blink-1 1.5s infinite;
+}
+
+@keyframes color-blink-1 {
+  0%,
+  33%,
+  100% {
+    opacity: 1;
+  }
+
+  32% {
+    opacity: 0.1;
+  }
+}
+
+@keyframes color-blink-2 {
+  0%,
+  33%,
+  67%,
+  100% {
+    opacity: 1;
+  }
+
+  66% {
+    opacity: 0.1;
+  }
+}
+
+@keyframes color-blink-3 {
+  0%,
+  67% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0.1;
+  }
+}

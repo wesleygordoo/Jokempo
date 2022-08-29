@@ -1,0 +1,97 @@
+.animate-left {
+  position: relative;
+  animation: animateleft 0.4s;
+}
+
+@keyframes animateleft {
+  from {
+    left: -300px;
+    opacity: 0;
+  }
+
+  to {
+    left: 0;
+    opacity: 1;
+  }
+}
+
+.animate-left-reverse {
+  position: relative;
+  animation: animateleftreverse 0.4s;
+}
+
+@keyframes animateleftreverse {
+  from {
+    left: 0;
+    opacity: 1;
+  }
+
+  to {
+    left: -300px;
+    opacity: 0;
+  }
+}
+
+.animate-right {
+  position: relative;
+  animation: animateright 0.4s;
+}
+
+@keyframes animateright {
+  from {
+    right: -300px;
+  }
+
+  to {
+    right: 0;
+  }
+}
+
+.animate-top {
+  position: relative;
+  animation: animatetop 0.4s;
+}
+
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+.animate-opacity {
+  animation: opac 0.4s;
+}
+
+@keyframes opac {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-opacity-reverse {
+  animation: opacreverse 0.4s;
+}
+
+@keyframes opacreverse {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+.shadowhover:hover {
+  box-shadow: 0px 0px 49px 0px rgba(0, 0, 0, 0.75);
+}

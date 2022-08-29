@@ -1,0 +1,21 @@
+.flex-row {
+  display: flex;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.container {
+  padding: 4px;
+  border-radius: 4px;
+  margin: 4px;
+}

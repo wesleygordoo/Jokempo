@@ -1,0 +1,81 @@
+#main {
+  height: 100vh;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Lato");
+
+* {
+  box-sizing: border-box;
+  background-color: var(--bg-primary);
+  color: var(--primary);
+  padding: 1px;
+  margin: 1px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+  font-family: "Lato", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+h1 {
+  font-family: sans-serif;
+}
+
+h1::after {
+  content: "";
+  width: 200px;
+  height: 1px;
+  text-align: center;
+  background-color: currentColor;
+  display: block;
+}
+
+h1::before {
+  content: "";
+  width: 200px;
+  height: 1px;
+  text-align: center;
+  background-color: currentColor;
+  display: block;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  background-clip: padding-box;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 0.25rem;
+  margin: 4px 0 0 0;
+  outline: none;
+}
+
+input:not(:placeholder-shown) {
+  border-color: #28a745;
+}
+
+input:placeholder-shown {
+  border-color: grey;
+}
+
+input:focus:not(:placeholder-shown) {
+  box-shadow: 0 0 4px #28a745;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+input:focus:placeholder-shown {
+  box-shadow: 0 0 4px grey;
+  transition: box-shadow 0.3s ease-in-out;
+}
