@@ -3,6 +3,7 @@ import nestElements from "./core/nestElements.js";
 import Crud from "./crud.js";
 import ListaGatos from "./components/listaGatos.js";
 
+// teste em codigo de app
 const crud = Crud("template-teste-js");
 
 const getName = () => crud.database.name;
